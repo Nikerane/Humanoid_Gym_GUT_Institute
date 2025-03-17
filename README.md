@@ -53,6 +53,11 @@ python scripts/train.py --task=humanoid_ppo --run_name experiment1 --headless --
 
 ```
 
+# Location of Reward Functions
+
+The reward functions for the humanoid environment are primarily located in:
+humanoid/envs/custom/humanoid_env.py
+
 Evaluation
 ```
 python scripts/play.py --task=humanoid_ppo --run_name experiment1
