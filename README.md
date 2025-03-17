@@ -3,6 +3,10 @@
 This repository provides step-by-step instructions to install and use [Humanoid-Gym](https://github.com/zlw21gxy/humanoid-gym) with NVIDIA's **Isaac Gym**, enabling reinforcement learning for humanoid robots.
 
 ---
+# Location of Reward Functions
+
+The reward functions for the humanoid environment are primarily located in:
+humanoid/envs/custom/humanoid_env.py
 
 ##  **System Requirements**
 - **OS**: Linux (Ubuntu recommended)
@@ -60,7 +64,4 @@ python scripts/play.py --task=humanoid_ppo --run_name experiment1
 
 other things can also be foung on https://github.com/zlw21gxy/humanoid-gym
 
-# Location of Reward Functions
 
-The reward functions for the humanoid environment are primarily located in:
-humanoid/envs/custom/humanoid_env.py
