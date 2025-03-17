@@ -4,7 +4,7 @@ This repository provides step-by-step instructions to install and use [Humanoid-
 
 ---
 
-## 📌 **System Requirements**
+##  **System Requirements**
 - **OS**: Linux (Ubuntu recommended)
 - **GPU**: NVIDIA GPU with driver **≥ 515** (recommended: **525**)
 - **Python**: 3.8 (via Conda)
@@ -12,7 +12,7 @@ This repository provides step-by-step instructions to install and use [Humanoid-
 
 ---
 
-## 🚀 **1. Create a Conda Environment**
+## **1. Create a Conda Environment**
 First, create and activate a new Conda environment:
 
 ```bash
